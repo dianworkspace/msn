@@ -4059,3 +4059,58 @@ Using generated security password: 4111bec8-5dd5-4387-9f75-49e127bd4c1d
 2021-10-01 22:11:04.819  INFO 12076 --- [msn-api-quartz-job_Worker-4] c.m.r.u.service.UserServiceImplements    : ======== START 
 2021-10-01 22:11:10.838  INFO 12076 --- [msn-api-quartz-job_Worker-5] c.m.r.u.service.UserServiceImplements    : ======== START 
 2021-10-01 22:11:16.825  INFO 12076 --- [msn-api-quartz-job_Worker-1] c.m.r.u.service.UserServiceImplements    : ======== START 
+2021-10-01 22:16:43.735  INFO 6344 --- [main] com.msn.riyad.RiyadApplication           : Starting RiyadApplication using Java 16.0.1 on LAPTOP-GKV7MAH7 with PID 6344 (C:\Users\User\Documents\NetBeansProjects\riyad\target\classes started by User in C:\Users\User\Documents\NetBeansProjects\riyad)
+2021-10-01 22:16:43.738  INFO 6344 --- [main] com.msn.riyad.RiyadApplication           : No active profile set, falling back to default profiles: default
+2021-10-01 22:16:45.216  INFO 6344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-01 22:16:45.335  INFO 6344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2021-10-01 22:16:46.405  INFO 6344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-01 22:16:46.430  INFO 6344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-01 22:16:46.430  INFO 6344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-01 22:16:46.626  INFO 6344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-01 22:16:46.628  INFO 6344 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2807 ms
+2021-10-01 22:16:47.015  INFO 6344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-01 22:16:47.153  INFO 6344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-01 22:16:47.517  INFO 6344 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-01 22:16:47.741  INFO 6344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-01 22:16:48.059  INFO 6344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-01 22:16:48.101  INFO 6344 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-10-01 22:16:49.355  INFO 6344 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-01 22:16:49.367  INFO 6344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-01 22:16:49.963  WARN 6344 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-01 22:16:50.908  INFO 6344 --- [main] com.msn.riyad.user.util.SchedulerConfig  : simpleJobTrigger
+2021-10-01 22:16:50.935  INFO 6344 --- [main] com.msn.riyad.user.util.SchedulerConfig  : 
+
+>>>> Starting Jobs.... 
+
+
+2021-10-01 22:16:50.970  INFO 6344 --- [main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2021-10-01 22:16:50.987  INFO 6344 --- [main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2021-10-01 22:16:50.988  INFO 6344 --- [main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.2 created.
+2021-10-01 22:16:50.988  INFO 6344 --- [main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2021-10-01 22:16:50.991  INFO 6344 --- [main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.2) 'msn-api-quartz-job' with instanceId 'msn-instance-1'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2021-10-01 22:16:50.991  INFO 6344 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'msn-api-quartz-job' initialized from an externally provided properties instance.
+2021-10-01 22:16:50.991  INFO 6344 --- [main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.2
+2021-10-01 22:16:50.991  INFO 6344 --- [main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.msn.riyad.user.util.AutowiringSpringBeanJobFactory@50841932
+2021-10-01 22:16:51.172  INFO 6344 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@296949c8, org.springframework.security.web.context.SecurityContextPersistenceFilter@60739eca, org.springframework.security.web.header.HeaderWriterFilter@47d4468a, org.springframework.security.web.authentication.logout.LogoutFilter@61c0fb12, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@544733a4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17873842, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5cff6d1d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1be3a294, org.springframework.security.web.session.SessionManagementFilter@7833407, org.springframework.security.web.access.ExceptionTranslationFilter@1399ad68, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@690e7b89]
+2021-10-01 22:16:51.206  INFO 6344 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-10-01 22:16:51.836  INFO 6344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-01 22:16:51.839  INFO 6344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-10-01 22:16:51.873  INFO 6344 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-10-01 22:16:51.953  INFO 6344 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-10-01 22:16:52.233  INFO 6344 --- [main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2021-10-01 22:16:52.233  INFO 6344 --- [main] org.quartz.core.QuartzScheduler          : Scheduler msn-api-quartz-job_$_msn-instance-1 started.
+2021-10-01 22:16:52.253  INFO 6344 --- [msn-api-quartz-job_Worker-1] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
+2021-10-01 22:16:52.258  INFO 6344 --- [main] com.msn.riyad.RiyadApplication           : Started RiyadApplication in 9.117 seconds (JVM running for 9.662)
+2021-10-01 22:16:56.913  INFO 6344 --- [msn-api-quartz-job_Worker-2] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
+2021-10-01 22:17:02.911  INFO 6344 --- [msn-api-quartz-job_Worker-3] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
+2021-10-01 22:17:08.924  INFO 6344 --- [msn-api-quartz-job_Worker-4] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
+2021-10-01 22:17:14.911  INFO 6344 --- [msn-api-quartz-job_Worker-5] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
+2021-10-01 22:17:20.919  INFO 6344 --- [msn-api-quartz-job_Worker-1] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
+2021-10-01 22:17:26.913  INFO 6344 --- [msn-api-quartz-job_Worker-2] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
