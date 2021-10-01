@@ -47,3 +47,4 @@
 2021-10-01 22:18:45.771  INFO 12304 --- [main] org.quartz.core.QuartzScheduler          : Scheduler msn-api-quartz-job_$_msn-instance-1 started.
 2021-10-01 22:18:45.780  INFO 12304 --- [msn-api-quartz-job_Worker-1] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
 2021-10-01 22:18:45.783  INFO 12304 --- [main] com.msn.riyad.RiyadApplication           : Started RiyadApplication in 7.557 seconds (JVM running for 8.081)
+2021-10-01 22:19:44.731  INFO 12304 --- [msn-api-quartz-job_Worker-2] c.m.r.u.service.UserServiceImplements    : ======== START CustomerServiceImpl.job()
